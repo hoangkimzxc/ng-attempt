@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1 [ngClass]="{ 'with-border': withBorder }">
+    <h1 [ngClass]="{ 'with-border': withBorder, 'other-class': true }">
       {{ title }}
     </h1>
     <h1 [class.with-border]="withBorder">
